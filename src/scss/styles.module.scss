@@ -1,0 +1,41 @@
+@import './colors';
+@import './utitlities';
+
+
+
+.main{
+    width: 234px;
+    padding: 20px;
+    background-color: $primaryColor;   
+
+    .flexy{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        gap: 20px;
+        color: #FFFFFF;
+
+        .icon{
+            font-size: 80px;
+            cursor: pointer;
+    
+            &:hover{
+                transform: scale(95%);
+            }
+            &:active{
+                transform: scale(1);
+            }
+        }
+    }
+}
+
+
+.title{
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
