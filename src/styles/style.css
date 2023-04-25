@@ -1,0 +1,30 @@
+.main {
+    width: 234px;
+    padding: 20px;
+    background-color: #02062C;
+  }
+  .main .flexy {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    color: #FFFFFF;
+  }
+  .main .flexy .icon {
+    font-size: 80px;
+    cursor: pointer;
+  }
+  .main .flexy .icon:hover {
+    transform: scale(95%);
+  }
+  .main .flexy .icon:active {
+    transform: scale(1);
+  }
+  
+  .title {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+  }

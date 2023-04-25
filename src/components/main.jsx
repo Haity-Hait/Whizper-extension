@@ -1,21 +1,21 @@
 import React from 'react'
-import classes from '../scss/styles.module.scss'
 import MicIcon from '@mui/icons-material/Mic';
 import SettingsIcon from '@mui/icons-material/Settings';
 
+import '../styles/style.css'
 
 const main = () => {
   return (
-    <div className={classes.main}>
-        <h1 className={classes.title}>
+    <div className={'main'}>
+        <h1 className={'title'}>
             Helper Reader
         </h1>
-        <div className={classes.flexy}>
-            <div className={classes.voice}>
-                <MicIcon className={classes.icon}/>
+        <div className={'flexy'}>
+            <div className={'voice'}>
+                <MicIcon className={'icon'}/>
             </div>
-            <div className={classes.settings}>
-            <SettingsIcon  className={classes.icon}/>
+            <div className={'settings'}>
+            <SettingsIcon  className={'icon'}/>
             </div>
         </div>
     </div>
