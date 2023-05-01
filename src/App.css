@@ -8,6 +8,7 @@
 .app{
     min-width: 400px;
     transition: all 0.5s;
+    position: relative;
     /* padding: 20px; */
     /* background-color: green; */
 }

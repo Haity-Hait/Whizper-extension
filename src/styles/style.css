@@ -28,3 +28,106 @@
     font-size: 20px;
     color: #FFFFFF;
   }
+
+  .overlay{
+    background: linear-gradient(rgba(135, 135, 135, 0.5),rgba(86, 86, 86, 0.7)) ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* display: none; */
+  }
+
+  .overlay .container{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .container header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container header h2{
+    text-transform: capitalize;
+    font-weight: 900;
+  }
+
+  .container header .icon .close_icon{
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .container header .icon .close_icon:hover{
+    transform: scale(1.2)
+  }
+
+  .container .iteam_container{
+    padding: 1rem;
+  }
+  .container .iteam_container h2{
+    text-transform: capitalize;
+    font-weight: 900;
+  }
+  .container .iteam_container .iteam{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .iteam .size_slider h3{
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+  }
+  .iteam .size_slider input[type='range'] {
+    -webkit-appearance: none;
+    height: 20px;
+  }
+  .iteam .size_slider input[type='range']::-webkit-slider-runnable-track {
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -webkit-appearance: none;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #02062C;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .iteam .size_slider input[type='range']::-moz-range-progress {
+    background-color: #02062C;
+    height: 20px;
+    border-radius: 25px;
+  }
+  .iteam .size_slider input[type='range']::-webkit-slider-thumb {
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 35px;
+    cursor: pointer;
+    background-color: rgb(207, 207, 207);
+    border-radius: 2rem;
+    margin-top: -8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .iteam .select h3 {
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+  }
+  .iteam .select select{
+    border: none;
+    height: 35px;
+    cursor: pointer;
+    border-radius: .3rem;
+    padding: 0 12px;
+    background-color: rgb(226, 226, 226);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
