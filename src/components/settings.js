@@ -26,8 +26,10 @@ const Settings = () => {
   }
 
   return (
-    
-    <div className='overlay' style={{ display: menuOpen ? 'block' : 'none'}}>
+    <div
+      className='overlay'
+      style={{ visibility: menuOpen ? 'visible' : 'hidden' }}
+    >
       <div className='container'>
         <header>
           <h2>settings</h2>
